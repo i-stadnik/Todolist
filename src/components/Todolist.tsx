@@ -1,7 +1,7 @@
-import { FilterValuesType } from '../App.tsx'
+import { FilterValuesType } from '../App'
 import { ChangeEvent } from 'react'
-import { AddItemForm } from './AddItemForm.tsx'
-import { EditableText } from './EditableText.tsx'
+import { AddItemForm } from './AddItemForm'
+import { EditableText } from './EditableText'
 
 export type TaskType = {
 	id: string
